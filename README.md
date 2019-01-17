@@ -1,2 +1,10 @@
 # Java-Advanced-January-2019
-Repository that contains all my solutions for the course
+My solutions for the Java Advanced January 2019 Course at Software University.
+Java Advanced January 2019 Is part of the Java Fundamentals module in Software University.
+https://softuni.bg/trainings/2246/java-advanced-january-2019
+
+More about Java Advanced January 2019 (BG):
+
+Курсът Java Advanced разглежда платформата Java, както и работата с езика Java на ниво над началното. Това включва писане на код (coding skills), решаване на проблеми от средно-алгоритмичен характер (problem solving skills), запознаване със стандартнатите инструменти за работа с Java платформата (JDK), текстообработка, линейни и дървовидни колекции и работа с файлове и директории. Обръща се внимание на парадигмата функционално програмиране, както и на основния инструмент залагащ на нея - Java Stream API за обработване на потоци от данни. В курса ще се разгледа и работа с класове и обекти, курсистите ще дефинират прости дата структури, ще се научат да ги обхождат и сортират, чрез имплементиране на прости сортиращи алгоритми. Средата за разработка, която ще се използва от трейнърския екип е IntelliJ IDEA, но всеки курсист е свободен да използва инструменти по предпочитание. 
+
+Курсът е част от цялостната програма с Java курсове и уроци за обучение по професия "Java програмист" в Софтуерния университет.
