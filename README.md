@@ -1,5 +1,5 @@
 # Java-Advanced-January-2019
-My solutions for the Java Advanced January 2019 Course at Software University.
+My solutions for the Java Advanced January 2019 Course at Software University.<br>
 Java Advanced January 2019 Is part of the Java Fundamentals module in Software University.
 https://softuni.bg/trainings/2246/java-advanced-january-2019
 
