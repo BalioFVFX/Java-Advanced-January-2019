@@ -1,15 +1,18 @@
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     private static final String FILE_PATH = "C:\\Users\\Erik\\Desktop\\Exercises\\Exercises Resources\\input.txt";
+    private static final String OUTPUT_PATH = "C:\\Users\\Erik\\Desktop\\Exercises\\Exercises Resources\\output04.txt";
 
     public static void main(String[] args) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(FILE_PATH);
+        PrintWriter printWriter = new PrintWriter(OUTPUT_PATH);
         List<Character> vowels = Arrays.asList('a', 'e', 'i', 'o', 'u');
         List<Character> punctuations = Arrays.asList('!', ',', '.', '?');
         int vowelsCount = 0;
@@ -35,8 +38,9 @@ public class Main {
             byteData = fileInputStream.read();
         }
 
-        System.out.println(String.format("Vowels: %s", vowelsCount));
-        System.out.println(String.format("Consonants: %s", consonantsCount));
-        System.out.println(String.format("Punctuation: %s", punctuationCount));
+        printWriter.println(String.format("Vowels: %s", vowelsCount));
+        printWriter.println(String.format("Consonants: %s", consonantsCount));
+        printWriter.println(String.format("Punctuation: %s", punctuationCount));
+        printWriter.flush();
     }
 }
